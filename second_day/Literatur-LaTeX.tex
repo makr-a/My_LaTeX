@@ -1,0 +1,98 @@
+\documentclass[ngerman,12pt]{scrartcl}
+
+\usepackage{babel}
+\usepackage{blindtext}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{esvect} % vv{}Befehl
+\usepackage{siunitx}
+\usepackage{chemformula}
+
+
+
+
+\author{\textbf{ Ismail Makroum}}
+\title{Miene Dissertation}
+
+\usepackage[style=nature,backend=biber]{biblatex}
+ \usepackage[babel,german=quotes]{csquotes}
+ \addbibresource{Literatur.bib}
+
+
+
+
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,                     % show bookmarks bar
+    unicode=false,                      % non - Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,                        % show Acrobat’s toolbar
+    pdfmenubar=true,                        % show Acrobat’s menu
+    pdffitwindow=false,                 % window fit to page when opened
+    pdfstartview={FitH},                    % fits the width of the page to the window
+    pdftitle={My title},                        % title
+    pdfauthor={Author},                 % author
+    pdfsubject={Subject},                   % subject of the document
+    pdfcreator={Creator},                   % creator of the document
+    pdfproducer={Producer},             % producer of the document
+    pdfkeywords={keyword1, key2, key3},   % list of keywords
+    pdfnewwindow=true,                  % links in new window
+    colorlinks=true,                        % false: boxed links; true: colored links
+    linkcolor=blue,                          % color of internal links
+    filecolor=blue,                     % color of file links
+    citecolor=blue,                     % color of file links
+    urlcolor=blue                        % color of external links
+}
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+
+
+\blindtext\\
+
+\citeauthor{amt-14-2717-2021}  haben in ihrem Paper \cite{amt-14-2717-2021} \citetitle{amt-14-2717-2021} \citeyear{amt-14-2717-2021} beschrieben, wie CO2 in der Lust steigt. \\
+
+\cite{amt-14-2717-2021}\\
+
+\cite{knuth:1984}\\
+
+\cite{makroum:2022} \\
+
+\cite{ziegenhagen:2017}\\
+
+
+\parencite{knuth:1984}\\
+
+\footcite{knuth:1984}\\
+
+
+
+
+
+
+\printbibliography[type=article, title={Genutzte Artikel}]
+
+\printbibliography[type=book, title={Genutzte Bücher}]
+
+\printbibliography
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
