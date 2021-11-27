@@ -1,4 +1,4 @@
-:*:dlr#::Deutsches Zentrum fuer Luft- und Raumfahrt
+:*:dlr#::Deutsches Zentrum für Luft- und Raumfahrt
 :*:im#:: Ismail Makroum
 
 :*:ch#::\chapter{{}{}}{LEFT}
